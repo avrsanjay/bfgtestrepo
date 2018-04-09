@@ -7,3 +7,6 @@ s3_creds = {
     's3_proxy_port'     : "80",
     'num_mappers'       : "200"
 }
+
+#commit 2
+***REMOVED***
