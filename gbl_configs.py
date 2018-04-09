@@ -1,27 +1,34 @@
 s3_creds = {
-    'bucket_url'        : {'incremental' : '***REMOVED***',
-                           'historical'  : '***REMOVED***'},
-    's3_access_key'     : "***REMOVED***",
-    's3_secret_key'     : "***REMOVED***",
-    's3_proxy_host'     : "***REMOVED***",
+    'bucket_url'        : {'incremental' : 's3a://asdasdsdas/asdasdasd/asdassd',
+                           'historical'  : 's3n://sdfdsfsdf/sdfsdfdsf/sdfsdfsdf/sadsfsdafsad'},
+    's3_access_key'     : "ADGAFGVTRHBTRSWV546FDGBV",
+    's3_secret_key'     : "VDSnkvsMCVKSDGJRW4398jcKFnMEWRT894/t",
+    's3_proxy_host'     : "proxy.abc.com",
     's3_proxy_port'     : "80",
     'num_mappers'       : "200"
 }
 
 #commit 2
-***REMOVED***
+s3a://asdasdsdas/asdasdasd/asdassd
 
 #commit 3
-***REMOVED***
-***REMOVED***
+s3a://asdasdsdas/asdasdasd/asdassd
+s3n://sdfdsfsdf/sdfsdfdsf/sdfsdfsdf/sadsfsdafsad
 
 #commit 4
-***REMOVED***
-***REMOVED***
-***REMOVED***
+s3a://asdasdsdas/asdasdasd/asdassd
+s3n://sdfdsfsdf/sdfsdfdsf/sdfsdfsdf/sadsfsdafsad
+ADGAFGVTRHBTRSWV546FDGBV
 
 #commit 5
-***REMOVED***
-***REMOVED***
-***REMOVED***
-"***REMOVED***"
+s3a://asdasdsdas/asdasdasd/asdassd
+s3n://sdfdsfsdf/sdfsdfdsf/sdfsdfsdf/sadsfsdafsad
+ADGAFGVTRHBTRSWV546FDGBV
+"VDSnkvsMCVKSDGJRW4398jcKFnMEWRT894/t"
+
+#commit 6
+s3a://asdasdsdas/asdasdasd/asdassd
+s3n://sdfdsfsdf/sdfsdfdsf/sdfsdfsdf/sadsfsdafsad
+ADGAFGVTRHBTRSWV546FDGBV
+"VDSnkvsMCVKSDGJRW4398jcKFnMEWRT894/t"
+"proxy.abc.com"
